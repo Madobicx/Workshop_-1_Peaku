@@ -100,12 +100,18 @@ span{
 #d-menu{
     height: 51px;
 }
-
-#tar-1{
+#tar-0{
     height: 220px;
     width: 291px;
     border-radius: 6px;
     border: none;
+}
+
+#tar-1{
+    height: 319px;
+    width: 211px;
+    border-radius: 6px;
+    
 }
 
 #mod{
@@ -123,6 +129,19 @@ span{
     font-weight: 600;
     font-style: bold;
     font-size: 20px;
+}
+
+#price{
+    margin-top: -2px;
+    background-color: rgba(255, 231, 219, 1);
+    color: var(--color-primario);
+    width: 42px;
+    height: 20px;
+    border-radius: 3px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 14px;
 }
 
 .cuadrado {
