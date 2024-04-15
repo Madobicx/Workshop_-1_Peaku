@@ -1,408 +1,842 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <!--- Espacio Oscar Cruz -->
     <!--<div style="width: 1920px; height: 999px;">-->
-    <header style="margin-left: 275.4px; margin-top: 2rem; width: 930px;">
-        <nav class="nav-bar navbar-ligth">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-2 d-flex flex-now justify-content-centerr" style=" margin-top: 11px;">
-                        <a title="Trabook" href="#"><img src="./imagenes/Logo.png"
-                                style="width: 108px; height: 19px;" /></a>
-                    </div>
-                    <div class="col-8 ">
-                        <ul class="navbar-nav d-flex flex-row justify-content-center align-items-center"
-                            style="margin-left: -35px;">
-                            <li><a href="#" class="nav-link active link-dark m-3 mx-4" id="f-1">Home</a></li>
-                            <li><a href="#" class="nav-link active link-dark m-3 mx-4" id="f-1">About</a></li>
-                            <li><a href="#" class="nav-link active link-dark m-3 mx-4" id="f-1">Destination</a></li>
-                            <li><a href="#" class="nav-link active link-dark m-3 mx-4" id="f-1">Tour</a></li>
-                            <li><a href="#" class="nav-link active link-dark" id="f-1">Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-2 d-flex justify-content-center align-items-center" style="margin-left: -15px;">
-                        <ul class="navbar-nav d-flex flex-row" style="margin-top: 2px; margin-right: 20px;">
-                            <li><button id="f-1" type="button" class="btn btn-primary btn-lg bg-white"
-                                    style="margin-right: 42px; color: #FD8D3A; border: none; margin-top: 4px;"> Login
-                                </button></li>
-                            <li><button id="b-0" type="button" class="btn btn-primary" style="">Sign up </button></li>
-                        </ul>
-                    </div>
-                </div>
+    <header style="margin-left: 275.4px; margin-top: 2rem; width: 930px">
+      <nav class="nav-bar navbar-ligth">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-2 d-flex flex-now justify-content-centerr"
+              style="margin-top: 11px"
+            >
+              <a title="Trabook" href="#"
+                ><img
+                  src="./imagenes/Logo.png"
+                  style="width: 108px; height: 19px"
+              /></a>
             </div>
-        </nav>
+            <div class="col-8">
+              <ul
+                class="navbar-nav d-flex flex-row justify-content-center align-items-center"
+                style="margin-left: -35px"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="nav-link active link-dark m-3 mx-4"
+                    id="f-1"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="nav-link active link-dark m-3 mx-4"
+                    id="f-1"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="nav-link active link-dark m-3 mx-4"
+                    id="f-1"
+                    >Destination</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="nav-link active link-dark m-3 mx-4"
+                    id="f-1"
+                    >Tour</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="nav-link active link-dark" id="f-1"
+                    >Blog</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-2 d-flex justify-content-center align-items-center"
+              style="margin-left: -15px"
+            >
+              <ul
+                class="navbar-nav d-flex flex-row"
+                style="margin-top: 2px; margin-right: 20px"
+              >
+                <li>
+                  <button
+                    id="f-1"
+                    type="button"
+                    class="btn btn-primary btn-lg bg-white"
+                    style="
+                      margin-right: 42px;
+                      color: #fd8d3a;
+                      border: none;
+                      margin-top: 4px;
+                    "
+                  >
+                    Login
+                  </button>
+                </li>
+                <li>
+                  <button id="b-0" type="button" class="btn btn-primary">
+                    Sign up
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
-    <div class="container-fluid ">
-        <div class="row ">
-            <div class="d-flex" style="width: 930px; margin-top: -30px; margin-left: 275.4px;">
-                <div class="col-4 " style="width: 420px; height: 382px; margin-left: 0.9375rem; margin-top: 120px;">
-                    <h1 id="t-1">Get started your exciting <span> journey </span> with us.</h1>
-                    <p id="t-2" class="mt-4">A Team of experienced tourism professionals will provide you with the best
-                        advice and tips for your desire place.</p>
-                    <button id="b-1" type="button" class="btn btn-outline-success mt-5">Discover Now</button>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="d-flex"
+          style="width: 930px; margin-top: -30px; margin-left: 275.4px"
+        >
+          <div
+            class="col-4"
+            style="
+              width: 420px;
+              height: 382px;
+              margin-left: 0.9375rem;
+              margin-top: 120px;
+            "
+          >
+            <h1 id="t-1">
+              Get started your exciting <span> journey </span> with us.
+            </h1>
+            <p id="t-2" class="mt-4">
+              A Team of experienced tourism professionals will provide you with
+              the best advice and tips for your desire place.
+            </p>
+            <button id="b-1" type="button" class="btn btn-outline-success mt-5">
+              Discover Now
+            </button>
+          </div>
+          <div
+            class="col-8"
+            style="width: 605px; height: 375px; margin-top: 80px"
+          >
+            <div class="circulo">
+              <img id="img-1" class="mx-4" src="./Imagenes/Humano2.png" />
+              <img id="img-2" src="./Imagenes/Image.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid"
+      style="margin-left: 275.4px; margin-top: 50px; width: 915px"
+    >
+      <div id="box-1" class="container" style="width: 650px; height: 93px">
+        <div class="row">
+          <div
+            class="d-flex justify-content-center align-items-center"
+            style="margin: 21px auto; height: 51px; width: 630px"
+          >
+            <div class="col-8">
+              <div class="row">
+                <div class="d-flex container-fluid">
+                  <div id="d-menu" class="col-5 mt-3">
+                    <h1 id="f-menu" style="font-size: 12px">
+                      Location <img src="./Imagenes/Vector 4855.svg" />
+                    </h1>
+                    <h4 id="f-menu2" class="mt-3" style="font-size: 8px">
+                      Where are you going
+                    </h4>
+                  </div>
+                  <div class="col-4 mt-3">
+                    <h1 id="f-menu" style="font-size: 12px">
+                      Date <img src="./Imagenes/Vector 4855.svg" />
+                    </h1>
+                    <h4 id="f-menu2" class="mt-3" style="font-size: 8px">
+                      When you will go
+                    </h4>
+                  </div>
+                  <div class="col-3 mt-3">
+                    <h1 id="f-menu" style="font-size: 12px">
+                      Guest <img src="./Imagenes/Vector 4855.svg" />
+                    </h1>
+                    <h4 id="f-menu2" class="mt-3" style="font-size: 8px">
+                      Number of guest
+                    </h4>
+                  </div>
                 </div>
-                <div class="col-8 " style="width: 605px; height: 375px; margin-top: 80px;">
-                    <div class="circulo">
-                        <img id="img-1" class=" mx-4" src="./Imagenes/Humano2.png" />
-                        <img id="img-2" src="./Imagenes/Image.png" />
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-end">
+              <button
+                type="button"
+                id="b-0"
+                style="height: 48px; width: 130px; font-size: 14px"
+              >
+                Explore Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid"
+      style="background-color: #f7f8fc; height: 560px; margin-top: 80px"
+    >
+      <img
+        src="./Imagenes/Element-2.png"
+        style="
+          margin-left: 990px;
+          margin-top: 75px;
+          width: 155px;
+          height: 105px;
+          position: relative;
+        "
+      />
+      <div
+        class="d-flex flex-column justify-content-center align-items-center"
+        style="margin-top: -188px"
+      >
+        <h1 id="t-1" style="font-size: 39px; margin-top: 80px">
+          Things you need <span>to do</span>
+        </h1>
+        <p id="f-1" class="mt-3" style="font-size: 14px; color: #666666">
+          We ensure that you’ll embark on a perfectly planned,
+        </p>
+        <p id="f-1" style="font-size: 14px; color: #666666">
+          safe vacation at a price you can afford.
+        </p>
+      </div>
+      <div
+        style="margin: auto; margin-top: 40px; width: 1000px"
+        class="d-flex justify-content-center"
+      >
+        <div class="row row-cols-3" style="width: 950px; margin: auto">
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-white" id="tar-0" style="margin-left: -18px">
+              <img src="./Imagenes/Vector 4856.png" id="mod" />
+              <img src="./Imagenes/Group (2).png" id="mod-2" />
+              <h1 id="tartex-1" style="margin: 228px 34px">Sign Up</h1>
+              <p
+                id="f-menu2"
+                style="font-size: 12px; margin: -210px 34px; color: #666666"
+              >
+                Completes all the work associated with planning and processing
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-white" id="tar-0">
+              <img src="./Imagenes/Vector 4856 (1).png" id="mod" />
+              <img src="./Imagenes/Group.png" id="mod-2" />
+              <h1 id="tartex-1" style="margin: 228px 34px">Worth of money</h1>
+              <p
+                id="f-menu2"
+                style="font-size: 12px; margin: -210px 34px; color: #666666"
+              >
+                After successful access then book from exclusive deals & pricing
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-white" id="tar-0" style="margin-right: -18px">
+              <img src="./Imagenes/Vector 4857.png" id="mod" />
+              <img src="./Imagenes/Group (1).png" id="mod-2" />
+              <h1 id="tartex-1" style="margin: 228px 34px">Exiting travel</h1>
+              <p
+                id="f-menu2"
+                style="font-size: 12px; margin: -210px 34px; color: #666666"
+              >
+                Start and explore a wide range of exciting travel experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="container-fluid" style="height: 700px">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <h1 id="t-1" style="font-size: 39px; margin-top: 80px">
+          Exclusive <span>deals & discounts</span>
+        </h1>
+        <p id="f-1" class="mt-3" style="font-size: 14px; color: #666666">
+          Discover our fantastic early booking discounts
+        </p>
+        <p id="f-1" style="font-size: 14px; color: #666666">
+          & start planning your journey.
+        </p>
+      </div>
+      <div
+        style="margin: auto; margin-top: 40px; width: 1000px"
+        class="d-flex justify-content-center"
+      >
+        <div class="row row-cols-4" style="width: 950px; margin: auto">
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-white" id="tar-1">
+              <img
+                src="./Imagenes/Image (1).png"
+                class="card-img-top"
+                id="mod"
+              />
+              <div class="card-body">
+                <div class="row row-cols-2 card-title text-center">
+                  <div class="col">
+                    <h1
+                      style="
+                        margin-left: -15px;
+                        margin-top: 5px;
+                        font-size: 22px;
+                      "
+                      id="tartex-1"
+                    >
+                      Madrid
+                    </h1>
+                  </div>
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px 50px">
+                      <svg
+                        style="margin-top: 1.5px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        fill="#f0dd2a"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                      <h4 class="ms-2" id="f-menu" style="font-size: 14px">
+                        4.8
+                      </h4>
                     </div>
+                  </div>
                 </div>
+                <div
+                  class="row row-cols-2 card-title text-center"
+                  style="margin-top: -12px"
+                >
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px -2px">
+                      <svg
+                        style="margin-top: 2px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        fill="gray"
+                        class="bi bi-geo-alt-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
+                        />
+                      </svg>
+                      <h4 class="ms-2" id="f-menu2" style="font-size: 14px">
+                        Spain
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px -2px">
+                      <h4
+                        id="f-menu"
+                        style="font-size: 14px; text-decoration: line-through"
+                      >
+                        $950
+                      </h4>
+                      <h4
+                        class="ms-4 d-flex justify-content-center align-items-center"
+                        id="price"
+                      >
+                        $850
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="container-fluid " style="margin-left: 275.4px; margin-top: 50px; width: 915px;">
-        <div id="box-1" class="container " style="width: 650px; height: 93px;">
-            <div class="row">
-                <div class="d-flex justify-content-center align-items-center "
-                    style="margin: 21px auto; height: 51px; width: 630px;">
-                    <div class="col-8 ">
-                        <div class="row">
-                            <div class="d-flex container-fluid">
-                                <div id="d-menu" class="col-5  mt-3">
-                                    <h1 id="f-menu" style="font-size: 12px;">Location <img
-                                            src="./Imagenes/Vector 4855.svg" /></h1>
-                                    <h4 id="f-menu2" class="mt-3" style="font-size: 8px;">Where are you going</h4>
-                                </div>
-                                <div class="col-4  mt-3">
-                                    <h1 id="f-menu" style="font-size: 12px;">Date <img
-                                            src="./Imagenes/Vector 4855.svg" /></h1>
-                                    <h4 id="f-menu2" class="mt-3" style="font-size: 8px;">When you will go</h4>
-                                </div>
-                                <div class="col-3  mt-3">
-                                    <h1 id="f-menu" style="font-size: 12px;">Guest <img
-                                            src="./Imagenes/Vector 4855.svg" /></h1>
-                                    <h4 id="f-menu2" class="mt-3" style="font-size: 8px;">Number of guest</h4>
-                                </div>
-                            </div>
-                        </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-white" id="tar-1">
+              <img
+                src="./Imagenes/Image (2).png"
+                class="card-img-top"
+                id="mod"
+              />
+              <div class="card-body">
+                <div class="row row-cols-2 card-title text-center">
+                  <div class="col">
+                    <h1
+                      style="
+                        margin-left: -15px;
+                        margin-top: 5px;
+                        font-size: 22px;
+                      "
+                      id="tartex-1"
+                    >
+                      Firenze
+                    </h1>
+                  </div>
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px 50px">
+                      <svg
+                        style="margin-top: 1.5px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        fill="#f0dd2a"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                      <h4 class="ms-2" id="f-menu" style="font-size: 14px">
+                        4.5
+                      </h4>
                     </div>
-                    <div class="col-4  d-flex justify-content-end">
-                        <button type="button" id="b-0" style="height: 48px; width: 130px; font-size: 14px;">Explore
-                            Now</button>
-                    </div>
+                  </div>
                 </div>
+                <div
+                  class="row row-cols-2 card-title text-center"
+                  style="margin-top: -12px"
+                >
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px -2px">
+                      <svg
+                        style="margin-top: 2px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        fill="gray"
+                        class="bi bi-geo-alt-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
+                        />
+                      </svg>
+                      <h4 class="ms-2" id="f-menu2" style="font-size: 14px">
+                        Italy
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px -2px">
+                      <h4
+                        id="f-menu"
+                        style="font-size: 14px; text-decoration: line-through"
+                      >
+                        $850
+                      </h4>
+                      <h4
+                        class="ms-4 d-flex justify-content-center align-items-center"
+                        id="price"
+                      >
+                        $750
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="container-fluid " style="background-color: #F7F8FC; height: 560px; margin-top: 80px;">
-        <img src="./Imagenes/Element-2.png"
-            style="margin-left: 990px; margin-top: 75px; width: 155px; height: 105px position: relative;;" />
-        <div class="d-flex flex-column justify-content-center align-items-center " style="margin-top: -188px;">
-            <h1 id="t-1" style="font-size: 39px; margin-top: 80px;">Things you need <span>to do</span></h1>
-            <p id="f-1" class="mt-3" style="font-size: 14px; color: #666666;">We ensure that you’ll embark on a
-                perfectly planned, </p>
-            <p id="f-1" style="font-size: 14px; color: #666666;">safe vacation at a price you can afford.</p>
-        </div>
-        <div style="margin: auto; margin-top: 40px; width: 1000px;" class="d-flex justify-content-center ">
-            <div class="row row-cols-3 " style="width: 950px; margin: auto;">
-                <div class="col  d-flex justify-content-center">
-                    <div class="card  bg-white" id="tar-0" style="margin-left: -18px;">
-                        <img src="./Imagenes/Vector 4856.png" id="mod" />
-                        <img src="./Imagenes/Group (2).png" id="mod-2" />
-                        <h1 id="tartex-1" style="margin: 228px 34px;">Sign Up</h1>
-                        <p id="f-menu2" style="font-size: 12px; margin: -210px 34px; color: #666666;">Completes all
-                            the work associated with planning and processing</p>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-white" id="tar-1">
+              <img
+                src="./Imagenes/Image (2).png"
+                class="card-img-top"
+                id="mod"
+              />
+              <div class="card-body">
+                <div class="row row-cols-2 card-title text-center">
+                  <div class="col">
+                    <h1
+                      style="
+                        margin-left: -38px;
+                        margin-top: 5px;
+                        font-size: 22px;
+                      "
+                      id="tartex-1"
+                    >
+                      Paris
+                    </h1>
+                  </div>
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px 50px">
+                      <svg
+                        style="margin-top: 1.5px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        fill="#f0dd2a"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                      <h4 class="ms-2" id="f-menu" style="font-size: 14px">
+                        4.4
+                      </h4>
                     </div>
+                  </div>
                 </div>
-                <div class="col  d-flex justify-content-center">
-                    <div class="card  bg-white" id="tar-0">
-                        <img src="./Imagenes/Vector 4856 (1).png" id="mod" />
-                        <img src="./Imagenes/Group.png" id="mod-2" />
-                        <h1 id="tartex-1" style="margin: 228px 34px;">Worth of money</h1>
-                        <p id="f-menu2" style="font-size: 12px; margin: -210px 34px; color: #666666;">After
-                            successful access then book from exclusive deals & pricing</p>
+                <div
+                  class="row row-cols-2 card-title text-center"
+                  style="margin-top: -12px"
+                >
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px -2px">
+                      <svg
+                        style="margin-top: 2px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        fill="gray"
+                        class="bi bi-geo-alt-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
+                        />
+                      </svg>
+                      <h4 class="ms-2" id="f-menu2" style="font-size: 14px">
+                        France
+                      </h4>
                     </div>
-                </div>
-                <div class="col  d-flex justify-content-center">
-                    <div class="card  bg-white" id="tar-0" style="margin-right: -18px;">
-                        <img src="./Imagenes/Vector 4857.png" id="mod" />
-                        <img src="./Imagenes/Group (1).png" id="mod-2" />
-                        <h1 id="tartex-1" style="margin: 228px 34px;">Exiting travel</h1>
-                        <p id="f-menu2" style="font-size: 12px; margin: -210px 34px; color: #666666;">Start and
-                            explore a wide range of exciting travel experience.</p>
+                  </div>
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px -2px">
+                      <h4
+                        id="f-menu"
+                        style="font-size: 14px; text-decoration: line-through"
+                      >
+                        $699
+                      </h4>
+                      <h4
+                        class="ms-4 d-flex justify-content-center align-items-center"
+                        id="price"
+                      >
+                        $599
+                      </h4>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container-fluid " style="height: 700px;">
-        <div class="d-flex flex-column justify-content-center align-items-center ">
-            <h1 id="t-1" style="font-size: 39px; margin-top: 80px;">Exclusive <span>deals & discounts</span></h1>
-            <p id="f-1" class="mt-3" style="font-size: 14px; color: #666666;">Discover our fantastic early booking
-                discounts </p>
-            <p id="f-1" style="font-size: 14px; color: #666666;">& start planning your journey.</p>
-        </div>
-        <div style="margin: auto; margin-top: 40px; width: 1000px;" class="d-flex justify-content-center ">
-            <div class="row row-cols-4 " style="width: 950px; margin: auto;">
-                <div class="col  d-flex justify-content-center">
-                    <div class="card  bg-white" id="tar-1">
-                        <img src="./Imagenes/Image (1).png" class="card-img-top" id="mod" />
-                        <div class="card-body">
-                            <div class="row row-cols-2  card-title text-center">
-                                <div class="col ">
-                                    <h1 style="margin-left: -15px; margin-top: 5px; font-size: 22px;" id="tartex-1">
-                                        Madrid</h1>
-                                </div>
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px 50px;">
-                                        <svg style="margin-top: 1.5px;" xmlns="http://www.w3.org/2000/svg" width="12"
-                                            height="12" fill="#f0dd2a" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                        </svg>
-                                        <h4 class="ms-2" id="f-menu" style="font-size: 14px;">4.8</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row row-cols-2  card-title text-center" style="margin-top: -12px;">
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px -2px;">
-                                        <svg style="margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="12"
-                                            height="12" fill="gray" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                        </svg>
-                                        <h4 class="ms-2" id="f-menu2" style="font-size: 14px;">Spain</h4>
-                                    </div>
-                                </div>
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px -2px;">
-                                        <h4 id="f-menu" style="font-size: 14px; text-decoration: line-through;">$950
-                                        </h4>
-                                        <h4 class="ms-4  d-flex justify-content-center align-items-center" id="price">
-                                            $850</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card bg-white" id="tar-1">
+              <img
+                src="./Imagenes/Image (3).png"
+                class="card-img-top"
+                id="mod"
+              />
+              <div class="card-body">
+                <div class="row row-cols-2 card-title text-center">
+                  <div class="col">
+                    <h1
+                      style="
+                        margin-left: -15px;
+                        margin-top: 5px;
+                        font-size: 22px;
+                      "
+                      id="tartex-1"
+                    >
+                      London
+                    </h1>
+                  </div>
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px 50px">
+                      <svg
+                        style="margin-top: 1.5px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        fill="#f0dd2a"
+                        class="bi bi-star-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                        />
+                      </svg>
+                      <h4 class="ms-2" id="f-menu" style="font-size: 14px">
+                        4.8
+                      </h4>
                     </div>
+                  </div>
                 </div>
-                <div class="col  d-flex justify-content-center">
-                    <div class="card  bg-white" id="tar-1">
-                        <img src="./Imagenes/Image (2).png" class="card-img-top" id="mod" />
-                        <div class="card-body">
-                            <div class="row row-cols-2  card-title text-center">
-                                <div class="col ">
-                                    <h1 style="margin-left: -15px; margin-top: 5px; font-size: 22px;" id="tartex-1">
-                                        Firenze</h1>
-                                </div>
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px 50px;">
-                                        <svg style="margin-top: 1.5px;" xmlns="http://www.w3.org/2000/svg" width="12"
-                                            height="12" fill="#f0dd2a" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                        </svg>
-                                        <h4 class="ms-2" id="f-menu" style="font-size: 14px;">4.5</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row row-cols-2  card-title text-center" style="margin-top: -12px;">
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px -2px;">
-                                        <svg style="margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="12"
-                                            height="12" fill="gray" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                        </svg>
-                                        <h4 class="ms-2" id="f-menu2" style="font-size: 14px;">Italy</h4>
-                                    </div>
-                                </div>
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px -2px;">
-                                        <h4 id="f-menu" style="font-size: 14px; text-decoration: line-through;">$850
-                                        </h4>
-                                        <h4 class="ms-4  d-flex justify-content-center align-items-center" id="price">
-                                            $750</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div
+                  class="row row-cols-2 card-title text-center"
+                  style="margin-top: -12px"
+                >
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px -2px">
+                      <svg
+                        style="margin-top: 2px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        fill="gray"
+                        class="bi bi-geo-alt-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
+                        />
+                      </svg>
+                      <h4 class="ms-2" id="f-menu2" style="font-size: 14px">
+                        UK
+                      </h4>
                     </div>
-                </div>
-                <div class="col  d-flex justify-content-center">
-                    <div class="card  bg-white" id="tar-1">
-                        <img src="./Imagenes/Image (2).png" class="card-img-top" id="mod" />
-                        <div class="card-body">
-                            <div class="row row-cols-2  card-title text-center">
-                                <div class="col ">
-                                    <h1 style="margin-left: -38px; margin-top: 5px; font-size: 22px;" id="tartex-1">
-                                        Paris</h1>
-                                </div>
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px 50px;">
-                                        <svg style="margin-top: 1.5px;" xmlns="http://www.w3.org/2000/svg" width="12"
-                                            height="12" fill="#f0dd2a" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                        </svg>
-                                        <h4 class="ms-2" id="f-menu" style="font-size: 14px;">4.4</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row row-cols-2  card-title text-center" style="margin-top: -12px;">
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px -2px;">
-                                        <svg style="margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="12"
-                                            height="12" fill="gray" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                        </svg>
-                                        <h4 class="ms-2" id="f-menu2" style="font-size: 14px;">France</h4>
-                                    </div>
-                                </div>
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px -2px;">
-                                        <h4 id="f-menu" style="font-size: 14px; text-decoration: line-through;">$699
-                                        </h4>
-                                        <h4 class="ms-4  d-flex justify-content-center align-items-center" id="price">
-                                            $599</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col d-flex">
+                    <div class="d-flex" style="margin: 11px -2px">
+                      <h4
+                        id="f-menu"
+                        style="font-size: 14px; text-decoration: line-through"
+                      >
+                        $850
+                      </h4>
+                      <h4
+                        class="ms-4 d-flex justify-content-center align-items-center"
+                        id="price"
+                      >
+                        $850
+                      </h4>
                     </div>
+                  </div>
                 </div>
-                <div class="col  d-flex justify-content-center">
-                    <div class="card  bg-white" id="tar-1">
-                        <img src="./Imagenes/Image (3).png" class="card-img-top" id="mod" />
-                        <div class="card-body">
-                            <div class="row row-cols-2  card-title text-center">
-                                <div class="col ">
-                                    <h1 style="margin-left: -15px; margin-top: 5px; font-size: 22px;" id="tartex-1">
-                                        London</h1>
-                                </div>
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px 50px;">
-                                        <svg style="margin-top: 1.5px;" xmlns="http://www.w3.org/2000/svg" width="12"
-                                            height="12" fill="#f0dd2a" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                        </svg>
-                                        <h4 class="ms-2" id="f-menu" style="font-size: 14px;">4.8</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row row-cols-2  card-title text-center" style="margin-top: -12px;">
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px -2px;">
-                                        <svg style="margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="12"
-                                            height="12" fill="gray" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                        </svg>
-                                        <h4 class="ms-2" id="f-menu2" style="font-size: 14px;">UK</h4>
-                                    </div>
-                                </div>
-                                <div class="col d-flex">
-                                    <div class="d-flex" style="margin: 11px -2px;">
-                                        <h4 id="f-menu" style="font-size: 14px; text-decoration: line-through;">$850
-                                        </h4>
-                                        <h4 class="ms-4  d-flex justify-content-center align-items-center" id="price">
-                                            $850</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div style="height: 600px;">
-
+    <div class="container-fluid" style="height: 700px">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex align-items-center">
+          <h1
+            id="t-1"
+            style="font-size: 39px; margin-top: 80px; margin-right: 20px"
+          >
+            Best <span> vacation plan</span>
+          </h1>
+          <img
+            src="./Imagenes/palm.svg"
+            style="height: 50px; margin-top: 60px"
+          />
+          <img
+            src="./Imagenes/palm.svg"
+            alt=""
+            style="height: 50px; margin-top: 70px"
+          />
+        </div>
+        <p class="my-5 mx-5 text-center" id="f-1" style="max-width: 550px">
+          Plan your perfect vacation with our travel agency. Choose among
+          hundreds of all-inclusive offers!
+        </p>
+      </div>
+      <div class="card-group mx-auto" style="max-width: 800px">
+        <div class="card mx-3" id="country-card">
+          <img
+            src="./Imagenes/Rome.jpg"
+            class="card-img-top"
+            alt="..."
+            style="max-height: 218.59px; border-radius: 10px"
+          />
+          <div class="card-body">
+            <h5
+              class="card-title d-flex justify-content-between align-items-center px-3 py-2"
+            >
+              Rome, Italy <span>$5,42k</span>
+            </h5>
+            <div
+              class="d-flex justify-content-between align-items-center px-3 py-3"
+            >
+              <img
+                src="./Imagenes/tenDays.png"
+                alt=""
+                style="width: 100px; height: 17px"
+              />
+              <img src="./Imagenes/stars4.8.png" alt="" style="height: 17px" />
+            </div>
+          </div>
+        </div>
+        <div class="card mx-3" id="country-card">
+          <img src="./Imagenes/London.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5
+              class="card-title d-flex justify-content-between align-items-center px-3 py-2"
+            >
+              London,UK <span>$2,42k</span>
+            </h5>
+            <div
+              class="d-flex justify-content-between align-items-center px-3 py-3"
+            >
+              <img
+                src="./Imagenes/tenDays.png"
+                alt=""
+                style="width: 100px; height: 17px"
+              />
+              <img src="./Imagenes/stars4.7.png" alt="" style="height: 17px" />
+            </div>
+          </div>
+        </div>
+        <div class="card mx-3" id="country-card">
+          <img src="./Imagenes/Osaka.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5
+              class="card-title d-flex justify-content-between align-items-center px-3 py-2"
+            >
+              Osaka,Japan <span>$5,42k</span>
+            </h5>
+            <div
+              class="d-flex justify-content-between align-items-center px-3 py-3"
+            >
+              <img
+                src="./Imagenes/tenDays.png"
+                alt=""
+                style="width: 100px; height: 17px"
+              />
+              <img src="./Imagenes/stars4.8.png" alt="" style="height: 17px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="box-5">
+      <div
+        class="container-fluid d-flex"
+        style="height: 700px; max-width: 800px"
+      >
+        <div style="max-width: 800px"></div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h1
+            id="t-1"
+            style="font-size: 39px; margin-top: 80px; margin-right: 20px"
+          >
+            What people say <span>about Us.</span>
+          </h1>
+          <p class="my-5 text-start" id="f-1">
+            Our Clients send us bunch of smilies with our services and we love
+            them.
+          </p>
+          <div class="d-flex justify-content-between">
+            <img
+              src="./Imagenes/arrowLeft.png"
+              alt="Arrow to the left"
+              class="px-5"
+            />
+            <img src="./Imagenes/arrowRight.png" alt="Arrow to the right" />
+          </div>
+        </div>
+        <div
+          class="container mt-4 d-flex align-items-center justify-content-center"
+        >
+          <div class="row position-relative" id="box-1">
+            <div
+              class="col-md-4 position-absolute"
+              style="top: -50px; left: -50px; z-index: 3"
+            >
+              <img
+                src="./Imagenes/ProfilePhoto.png"
+                alt="Foto de perfil"
+                class="rounded-circle mt-2"
+                style="width: 80px; height: 80px"
+              />
+            </div>
+            <div
+              class="col-md-8 text-right w-100 px-5 py-5"
+              style="z-index: 2; background-color: #ffffff"
+            >
+              <blockquote class="blockquote mb-0">
+                <p class="mb-0">
+                  “On the Windows talking painted pasture yet its express
+                  parties use. Sure last upon he same as knew next. Of believed
+                  or diverted no.”
+                </p>
+                <h1 id="f-menu" class="mt-4" style="font-size: 16px">
+                  Mike taylor
+                </h1>
+              </blockquote>
+              <p class="text-right">Lahore, Pakistan</p>
+            </div>
+            <div
+              class="position-absolute p-3"
+              style="top: 70px; left: 50px; z-index: 1"
+            >
+              <div
+                class="col-md-8 text-right w-100 px-5 py-5 bg-light"
+                style="
+                  opacity: 0.5;
+                  border: 2px solid #66666614;
+                  box-shadow: 0px 10px 30px 0px #22222259;
+                "
+              >
+                <blockquote class="blockquote mb-0">
+                  <p class="mb-0">
+                    “On the Windows talking painted pasture yet its express
+                    parties use. Sure last upon he same as knew next. Of
+                    believed or diverted no.”
+                  </p>
+                  <h1 id="f-menu" class="mt-4" style="font-size: 16px">
+                    Chris Thomas
+                  </h1>
+                </blockquote>
+                <p class="text-right">CEO of Red Button</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!--</div>-->
     <!--/////////////////////-->
 
-
-
-
     <!-- Espacio Juan Pablo  -->
     <!--/////////////////////-->
 
-
-
-
-
     <!--Espacio Juan Fernando-->
 
-    <div class="container-fluid" style="height: 600px; margin-top: 80px;">
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <div class="d-flex align-items-center">
-                <h1 id="t-1" style="font-size: 39px; margin-top: 80px; margin-right: 20px;">
-                    Best <span> vacation plan</span>
-                </h1>
-                <img src="./Imagenes/palm.svg" style="height: 50px; margin-top: 60px;">
-                <img src="./Imagenes/palm.svg" alt="" style="height: 50px; margin-top: 70px;">
-            </div>
-            <p class="my-5 mx-5" style="max-width: 550px; font-size: 20px;">
-                Plan your perfect vacation with our travel agency. Choose among
-                hundreds of all-inclusive offers!
-            </p>
-        </div>
-        <div class="card-group mx-auto" style="max-width: 800px;">
-            <div class="card mx-3" id="country-card">
-                <img src="./Imagenes/Rome.jpg" class="card-img-top" alt="..."
-                    style="max-height: 235.13px; border-radius: 10px" />
-                <div class="card-body">
-                    <h5 class="card-title d-flex justify-content-between align-items-center px-3 py-2">
-                        Rome, Italy <span>$5,42k</span>
-                    </h5>
-                    <div class="d-flex justify-content-between align-items-center px-3 py-3">
-                        <img src="./Imagenes/tenDays.png" alt="" style="width: 100px; height: 17px" />
-                        <img src="./Imagenes/stars4.8.png" alt="" style="height: 17px" />
-                    </div>
-                </div>
-            </div>
-            <div class="card mx-3" id="country-card">
-                <img src="./Imagenes/London.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title d-flex justify-content-between align-items-center px-3 py-2">
-                        London,UK <span>$2,42k</span>
-                    </h5>
-                    <div class="d-flex justify-content-between align-items-center px-3 py-3">
-                        <img src="./Imagenes/tenDays.png" alt="" style="width: 100px; height: 17px" />
-                        <img src="./Imagenes/stars4.7.png" alt="" style="height: 17px" />
-                    </div>
-                </div>
-            </div>
-            <div class="card mx-3" id="country-card">
-                <img src="./Imagenes/Osaka.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title d-flex justify-content-between align-items-center px-3 py-2">
-                        Osaka,Japan <span>$5,42k</span>
-                    </h5>
-                    <div class="d-flex justify-content-between align-items-center px-3 py-3">
-                        <img src="./Imagenes/tenDays.png" alt="" style="width: 100px; height: 17px" />
-                        <img src="./Imagenes/stars4.8.png" alt="" style="height: 17px" />
-                    </div>
-                </div>
-            </div>
-                
-        </div>
-
-        <!--/////////////////////-->
-</body>
-
+    <!--/////////////////////-->
+  </body>
 </html>
