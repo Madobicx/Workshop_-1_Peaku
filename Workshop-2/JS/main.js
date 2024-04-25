@@ -1,4 +1,4 @@
-const formulario = document.getElementById('formulario-calculadora');
+const formulario = document.getElementById('formulario-calculadora'); 
 formulario.addEventListener('submit', (event) =>{
     event.preventDefault();
     aparecerResultado();
